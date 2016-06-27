@@ -1,0 +1,10 @@
+build/
+bin/
+*.exe
+*.dll
+*.lib
+*.log
+*.pak
+*.db
+*.db-shm
+*.db-wal
