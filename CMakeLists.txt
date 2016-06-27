@@ -34,6 +34,7 @@ add_definitions(-DWINVER=0x0A00 -D_WIN32_WINNT=0x0A00)
 
 # Linker Options
 set(CMAKE_EXE_LINKER_FLAGS "/entry:main ${CMAKE_EXE_LINKER_FLAGS} /manifestuac:NO /nodefaultlib")
+set(CMAKE_CXX_STANDARD_LIBRARIES "")
 
 # Functions
 function(assign_source_group)

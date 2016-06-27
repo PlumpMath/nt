@@ -12,12 +12,13 @@ int main()
     return 2;
   }
   
-  char buffer[1024];
-  for (ULONG size = 0; size = src.read(buffer, sizeof(buffer));) {
-    if (!dst.write(buffer, size)) {
-      return 3;
-    }
-  }
+  //ULONG buffer_size = 1024;
+  //void* buffer_data = malloc(buffer_size);
+  //for (ULONG size = 0; size = src.read(buffer_data, buffer_size);) {
+  //  if (!dst.write(buffer_data, size)) {
+  //    return 3;
+  //  }
+  //}
   
   return 0;
 }

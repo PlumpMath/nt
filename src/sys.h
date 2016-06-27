@@ -47,5 +47,6 @@ NTSTATUS NTAPI SysWriteFile(
 );
 
 void* __cdecl memset(void* data, int value, size_t size);
+void* __cdecl malloc(size_t size);
 
 }  // extern "C"
